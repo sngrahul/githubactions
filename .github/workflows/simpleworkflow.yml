@@ -5,9 +5,9 @@ on:
 
 jobs:
   build:
-    runs-on: linux
+    runs-on: ubuntu-latest
     steps: 
-      -uses: actions/checkout@v2
+      -uses: actions/checkout@v3
       -name: run a online script
       run: echo Hi this is simple workflow
          
